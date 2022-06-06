@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="public/css/emloyees.min.css">
+	<link rel="icon" href="image/logo.svg">
+	<title>Банк | ПСКБ</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a class="logo" href="index.html" src="">
+				<img src="./image/logo.svg" alt="">
+				<h3>ПСКБ <br> БАНК</h3>
+			</a>
+			<nav>
+				<div class="section">
+					<div class="menu-block">
+						<nav class="menu-nav">
+						<a class="links" href="about.html">О банке</a>
+						<a class="links" href="clients.html">Клиентам</a>
+						<a class="links" href="index.html">На главную</a>
+						</nav>
+						<a href="#" class="menu-btn">
+						<span></span>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+
+
+	<div class="container">
+		<div class="info">
+			<div class="bank">
+				<img src="./image/people.svg" alt="">
+				<div class="title">Наши сотрудники</div>
+			</div>
+			
+		</div>
+		<div class="wrapper">
+			<div class="box">
+				<img src="/image/banker.jpg" class="foto">
+				<div class="subtitle">Банкир</div>
+			</div>
+			<div class="box">
+				<img src="/image/analyst.jpg" class="foto">
+				<div class="subtitle">Финансовый аналитик</div>
+			</div>
+			<div class="box">
+				<img src="/image/invest.jpg" class="foto">
+				<div class="subtitle">Специалист по инвестициям</div>
+			</div>
+			<div class="box">
+				<img src="/image/credit.jpg" class="foto">
+				<div class="subtitle">Кредитный эксперт</div></div>
+			<div class="box">
+				<img src="/image/clearing.jpg" class="foto">
+				<div class="subtitle">Специалист по клирингу</div>
+			</div>
+			<div class="box">
+				<img src="/image/auditor.jpg" class="foto">
+				<div class="subtitle">Аудитор</div>
+			</div>
+			<div class="box">
+				<img src="/image/accountant.jpg" class="foto">
+				<div class="subtitle">Бухалтер</div>
+			</div>
+			<div class="box">
+				<img src="/image/teller.jpg" class="foto">
+				<div class="subtitle">Операционист</div>
+			</div>
+			<div class="box">
+				<img src="/image/cashier.jpg" class="foto">
+				<div class="subtitle">Кассир</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p class="copyright">Made with ♡ for great people. © All rights reserved. Designed by Vdovichenko Timofey 2022</p>
+	</footer>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script id="rendered-js" >
+$('.menu-btn').on('click', function (e) {
+e.preventDefault();
+$(this).toggleClass('menu-btn_active');
+$('.menu-nav').toggleClass('menu-nav_active');
+});
+</script>
+	<script src="js/script.js"></script>
+	<script src="js/cartoons.js"></script>
+</body>
+</html>

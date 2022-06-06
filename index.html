@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="public/css/style.min.css">
+	<link rel="icon" href="image/logo.svg">
+	<script src="js/jQuery.min.js"></script>
+	<title>Банк | ПСКБ</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a class="logo" href="index.html" src="">
+				<img src="./image/logo.svg" alt="">
+				<h3>ПСКБ <br> БАНК</h3>
+			</a>
+			<nav>
+				<div class="section">
+					<div class="menu-block">
+						<nav class="menu-nav">
+						<a class="links" href="about.html">О банке</a>
+						<a class="links" href="clients.html">Клиентам</a>
+						<a class="links" href="employees.html">Наши сотрудники</a>
+						</nav>
+						<a href="#" class="menu-btn">
+						<span></span>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<section class="hero">
+		<div class="left">
+			<img src="./image/card.svg" alt="">
+		</div>
+		<div class="right">
+			<div class="business">Время открыть <br><b>бизнес!</b></div>
+			<a href="#" class="hero-btn">Зарегистрироваться</a>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="bank_info">
+			<div class="bank">
+				<b>Надежный банк из Санкт-Петербурга!</b>
+			</div>
+		</div>
+		<div class="dignity">
+			<div class="icon_text">
+				<img class="icon_p" src="./image/people_in_circle.svg" alt="">
+				<div class="info_dignity">100.00 + <br> корпоративных <br> клиентов</div>
+			</div>
+			<div class="icon_text">
+				<img class="icon_i" src="./image/internet.svg" alt="">
+				<div class="info_dignity">13 лет <br> обслуживаем <br> интернет-платежи</div>
+			</div>
+			<div class="icon_text">
+				<img class="icon_c" src="./image/bank_circle.svg" alt="">
+				<div class="info_dignity">27 лет <br> на рынке <br> банковских услуг</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="registration">
+		<div class="container_registr">
+			<div class="bank_info">
+				<div class="bank">Заявка на регистрацию</div>
+			</div>
+			<div class="form">
+				<input type="name" placeholder="Имя" id="name" required>
+				<input type="text" placeholder="Телефон" id="tel" required>
+				<input type="email" placeholder="E - mail" required>
+				<button href="#" class="send">Отправить</button>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p class="copyright">Made with ♡ for great people. © All rights reserved. Designed by Vdovichenko Timofey 2022</p>
+	</footer>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script id="rendered-js" >
+$('.menu-btn').on('click', function (e) {
+e.preventDefault();
+$(this).toggleClass('menu-btn_active');
+$('.menu-nav').toggleClass('menu-nav_active');
+});
+</script>
+
+
+
+
+
+<script src="js/input.js"></script>
+<script src="js/cartoons.js"></script>
+<script src="js/scroll.js"></script>
+</body>
+</html>

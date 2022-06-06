@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="public/css/clients.min.css">
+	<link rel="icon" href="image/logo.svg">
+	<title>Банк | ПСКБ</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a class="logo" href="index.html" src="">
+				<img src="./image/logo.svg" alt="">
+				<h3>ПСКБ <br> БАНК</h3>
+			</a>
+			<nav>
+				<div class="section">
+					<div class="menu-block">
+						<nav class="menu-nav">
+						<a class="links" href="about.html">О банке</a>
+						<a class="links" href="index.html">На главную</a>
+						<a class="links" href="employees.html">Наши сотрудники</a>
+						</nav>
+						<a href="#" class="menu-btn">
+						<span></span>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script id="rendered-js" >
+$('.menu-btn').on('click', function (e) {
+e.preventDefault();
+$(this).toggleClass('menu-btn_active');
+$('.menu-nav').toggleClass('menu-nav_active');
+});
+</script>
+	
+	<div class="container">
+		<div class="info">
+			<div class="bank">
+				<img src="./image/people.svg" alt="">
+				<div class="title">Клиентам</div>
+			</div>
+			
+			<div class="slider">
+				<div class="slider_line">
+					<img src="image/baner.jpeg">
+					<img src="image/banner_sbp.jpeg" alt="">
+					<img src="image/payments.jpeg" alt="">
+				</div>
+			</div>
+			<div class="slider_button">
+				<button class="slider_two"></button>
+				<button class="slider_one"></button>
+			</div>
+			
+		</div>
+		<div class="wrapper">
+			<div class="box">
+				<div class="name">ПСКБ. ОНЛАЙН. БИЗНЕС</div>
+				<div class="subtitle">Все счета как на ладони </div>
+			</div>
+			<div class="box">
+				<div class="name">Оплата по QR-коду</div>
+				<div class="subtitle">Оплата товаров и услуг по QR - коду</div>
+			</div>
+			<div class="box">
+				<div class="name">Самоинкассация</div>
+				<div class="subtitle">Сдача выручки через <br>платежные терминалы</div>
+			</div>
+			<div class="box">
+				<div class="name">Технология TAP2GO</div>
+				<div class="subtitle">Прием платежей по картам </div></div>
+			<div class="box">
+				<div class="name">Участниками ВЭД</div>
+				<div class="subtitle">Комплексное обслуживание <br>компаний</div>
+			</div>
+			<div class="box">
+				<div class="name">Платежные сервисы</div>
+				<div class="subtitle">Прием платежей на сайте и <br>в терминале</div>
+			</div>
+			<div class="box">
+				<div class="name">Открытие счета</div>
+				<div class="subtitle">Начните работать с нами - вы увидите, <br>как это выгодно</div>
+			</div>
+			<div class="box">
+				<div class="name">Вклады и векселя</div>
+				<div class="subtitle">Делайте прибыльные вклады </div>
+			</div>
+			<div class="box">
+				<div class="name">Валютный контроль</div>
+				<div class="subtitle">Держите под контролем сроки, <br>получайте отчеты</div>
+			</div>
+			<div class="box">
+				<div class="name">Выпуск УПЭК</div>
+				<div class="subtitle">Сервис по выпуску УПЭК</div>
+			</div>
+			<div class="box">
+				<div class="name">Безналичная конвертация</div>
+				<div class="subtitle">Меняйте валюту удобным случаем </div>
+			</div>
+			<div class="box">
+				<div class="name">Международные операции</div>
+				<div class="subtitle">Ведите простую с зарубежными партнерами</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p class="copyright">Made with ♡ for great people. © All rights reserved. Designed by Vdovichenko Timofey 2022</p>
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

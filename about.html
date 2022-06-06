@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="public/css/about.min.css">
+	<link rel="icon" href="image/logo.svg">
+	<title>Банк | ПСКБ</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a class="logo" href="index.html" src="">
+				<img src="./image/logo.svg" alt="">
+				<h3>ПСКБ <br> БАНК</h3>
+			</a>
+			<nav>
+				<div class="section">
+					<div class="menu-block">
+						<nav class="menu-nav">
+						<a class="links" href="index.html">На главную</a>
+						<a class="links" href="clients.html">Клиентам</a>
+						<a class="links" href="employees.html">Наши сотрудники</a>
+						</nav>
+						<a href="#" class="menu-btn">
+						<span></span>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+
+	<div class="container">
+		<div class="info">
+			<div class="bank">
+				<img src="./image/bank.svg" alt="">
+				<div class="title">О банке</div>
+			</div>
+			
+			<div class="tasks">Основными задачами банка в период стагнации являются постепенное развитие бизнеса и совершенствование
+					бизнес-процессов и банковских технологий,которые позволят быстро наращивать бизнес банка при изменении
+					экономической ситуации и начале экономического роста.
+			</div>
+			<div class="text">Акционерное общество «Петербургский социальный коммерческий банк»
+						зарегистрировано Центральным Банком Российской Федерации
+						29 октября 1993 года. Генеральная лицензия Банка России № 2551 от
+						12 февраля 2015 года.
+			</div>
+				
+			<div class="contact">
+				<div class="my-contact"> 
+					<div class="title">Свяжитесь с нами!</div>
+					<div class="name">Тимофей Вдовиченко</div>
+					<div class="tel">8(800) 555-35-35</div>
+					<div class="email">timavdovichenko321@gmail.com</div>
+				</div>
+				
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.6940062045726!2d30.33022469785325!3d60.00356763513626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963475ee23888d%3A0x4bceadfd8a8c0ce!2z0JjQvdGB0YLQuNGC0YPRgiDRgdGA0LXQtNC90LXQs9C-INC_0YDQvtGE0LXRgdGB0LjQvtC90LDQu9GM0L3QvtCz0L4g0L7QsdGA0LDQt9C-0LLQsNC90LjRjw!5e0!3m2!1sru!2sru!4v1649060517106!5m2!1sru!2sru" width="750" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			
+			
+		</div>
+		
+	</div>
+
+	<footer>
+		<p class="copyright">Made with ♡ for great people. © All rights reserved. Designed by Vdovichenko Timofey 2022</p>
+	</footer>
+
+
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script id="rendered-js" >
+$('.menu-btn').on('click', function (e) {
+e.preventDefault();
+$(this).toggleClass('menu-btn_active');
+$('.menu-nav').toggleClass('menu-nav_active');
+});
+</script>
+</body>
+</html>
